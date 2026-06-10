@@ -9,7 +9,7 @@
 <style>
     body {
         margin: 0 auto;
-        background-color: #f9f9f9;
+        background-color: #c9c9c9;
         font-family: "Proxima Nova", Arial, sans-serif, sans-serif;
 
     }
@@ -64,16 +64,18 @@
         border: 5px solid #f9f9f9;
         padding: 40px;
         background-color: #f9f9f9;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-
+        border-radius: 20%;
+       flex-direction: column;
+        display: flex;
     } 
 
     .login {
-       border: 1px solid #ccc;
-      padding: 20px;
+       border: 10px solid #f3f2f2;
+      padding: 40px;
       margin: 20px;
-      background: #f9f9f9;
+      background: #f3f2f2;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -81,7 +83,7 @@
 
     .button {
         border-radius: 10px;
-        border: 1px solid #b8060f;
+        border: 10px solid #b8060f;
         background-color: #b8060f;
         color: #f9f9f9;
         width: 85px;
@@ -120,79 +122,93 @@
 
         <div class="six">
 
-           <a href="Banner">Banner</a>
-           <a href="produtos">Produtos</a>
-           <a href="informaçoes">Login</a>
+           <a href="#Banner">Início</a>
+           <a href="#produtos">Produtos</a>
+           <a href="#informacoes">Formulário</a>
 
         </div>
 
-
     </div>
+
+
  <div id="Banner">
      <div class="banner">
         <img width="1920" height="753" src="https://www.nissin.com.br/wp-content/uploads/2024/06/bannerls.png" />
     </div>
  </div>
-   
-  <div id=" produtos">
+
+
+  <div id="produtos">
+  </div>
+
     <div class="imagmedecompra">
+
         <div class="sixseven">
-            <img src="https://www.nissin.com.br/wp-content/uploads/2026/04/LSGH-1.png" alt="" width="150" height="150">
+            <img src="https://www.nissin.com.br/wp-content/uploads/2026/04/LSGH-1.png" 
+            alt="" width="150" height="150">
             <p> Galinha caipira com milho.</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
+
         <div class="sixseven">
             <img src="https://www.nissin.com.br/wp-content/uploads/2025/09/Nissin_CHB_Carne_com_Batata_mkpMock-up-FINAL.png"
                 alt="" width="150" height="150">
-            <p>Carne com batata.</p>
+            <p>Carne com batata</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
+
         <div class="sixseven">
             <img src="https://www.nissin.com.br/wp-content/uploads/2024/06/Mockup-Galinha-com-Tomate-compress.png"
                 alt="" width="150" height="150">
-            <p> Galinha caipira com tomate.</p>
+            <p> Galinha caipira com tomate</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
+
         <div class="sixseven">
             <img src="https://www.nissin.com.br/wp-content/uploads/2022/06/nissin-lamen-tmonica-milho-na-manteiga-75g-1-1.png"
                 alt="" width="150" height="150">
-            <p> Milho na manteiga.</p>
+            <p> Milho na manteiga</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
-    </div>
+</div>
+
     <div class="imagmedecompra">
         <div class="sixseven">
             <img src="https://www.nissin.com.br/wp-content/uploads/2022/03/nissin-lamen-turma-monica-galinha-suave.png"
                 alt="" width="150" height="150">
-            <p> Galinha.</p>
+            <p> Galinha</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
+
         <div class="sixseven">
             <img src="https://www.nissin.com.br/wp-content/uploads/2022/03/Screenshot_1-removebg-preview.png" alt=""
                 width="150" height="150">
-            <p> Tomate.</p>
+            <p> Tomate</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
+
         <div class="sixseven">
             <img src="https://www.nissin.com.br/wp-content/uploads/2022/03/canja_galinha_chico_bento-1.png" alt=""
                 width="150" height="150">
-            <p> Canja de galinha.</p>
+            <p> Canja de galinha</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
+
         <div class="sixseven">
             <img src="https://www.nissin.com.br/wp-content/uploads/2022/03/caldo-feijao-chico-bento.png" alt=""
                 width="150" height="150">
-            <p> Caldinho de feijão.</p>
+            <p> Caldinho de feijão</p>
             <p> R$: 5,50</p>
             <button class="button"> Comprar</button>
         </div>
+
     </div>
 
   </div>
@@ -202,10 +218,9 @@
     <div id="informacoes">
 
         <div class="login">
-           
-                <input type="search" placeholder=" email">
-                <input type="search" placeholder=" password">
-           
+                <p>Faça login</p>
+                <input type="search" placeholder=" Gmail">
+                <input type="search" placeholder=" Senha">
                 <button class="botao"> Enviar</button>
         </div>
 
